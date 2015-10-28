@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaArea xmlns="https://mediaarea.net/mediaarea" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://mediaarea.net/mediaarea https://mediaarea.net/mediaarea/mediaarea_0_1.xsd" version="0.1">
+  <!-- Work in progress, not for production -->
+  <creatingLibrary version="0.7.78" url="https://mediaarea.net/MediaInfo">MediaInfoLib</creatingLibrary>
+  <media ref="http://archive.org/download/50CeABaltLoThiMp3Persia/50 Ce Ft. Oli - Be Fri Remix - Mp3Persia.mkv">
+    <MediaInfo xmlns="https://mediaarea.net/mediainfo" version="2.0alpha1">
+      <track type="General">
+        <CompleteName>http://archive.org/download/50CeABaltLoThiMp3Persia/50 Ce Ft. Oli - Be Fri Remix - Mp3Persia.mkv</CompleteName>
+        <FileSize>43888770</FileSize>
+        <StreamSize>43888770</StreamSize>
+      </track>
+    </MediaInfo>
+    <MediaTrace xmlns="https://mediaarea.net/mediatrace" version="0.1">
+      <block offset="59168" name="Frame" size="211142">
+        <data offset="59170" name="Picture Start Code (PSC)" info="(22 bits)">32</data>
+        <data offset="59170" name="Temporal Reference (TR)" info="(8 bits)">6</data>
+        <block offset="59170" name="Type Information (PTYPE)" size="211140">
+          <data offset="59169" name="1">No</data>
+          <data offset="270310" name="Mark bit is wrong">0</data>
+        </block>
+      </block>
+      <block offset="270310" name="Frame" size="92674">
+        <data offset="270312" name="Picture Start Code (PSC)" info="(22 bits)">32</data>
+        <data offset="270312" name="Temporal Reference (TR)" info="(8 bits)">155</data>
+        <data offset="362984" name="Out of Order">0</data>
+      </block>
+    </MediaTrace>
+  </media>
+</MediaArea>

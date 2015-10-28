@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaArea xmlns="https://mediaarea.net/mediaarea" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://mediaarea.net/mediaarea https://mediaarea.net/mediaarea/mediaarea_0_1.xsd" version="0.1">
+  <!-- Work in progress, not for production -->
+  <creatingLibrary version="0.7.78" url="https://mediaarea.net/MediaInfo">MediaInfoLib</creatingLibrary>
+  <media ref="http://archive.org/download/50CeABaltLoThiMp3Persia/50 Ce - A Balt Lo Thi - Mp3Persia.mkv">
+    <MediaInfo xmlns="https://mediaarea.net/mediainfo" version="2.0alpha1">
+      <track type="General">
+        <CompleteName>http://archive.org/download/50CeABaltLoThiMp3Persia/50 Ce - A Balt Lo Thi - Mp3Persia.mkv</CompleteName>
+        <FileSize>46637047</FileSize>
+        <StreamSize>46637047</StreamSize>
+      </track>
+    </MediaInfo>
+    <MediaTrace xmlns="https://mediaarea.net/mediatrace" version="0.1">
+      <block offset="61034" name="Frame" size="566518">
+        <data offset="61036" name="Picture Start Code (PSC)" info="(22 bits)">32</data>
+        <data offset="61036" name="Temporal Reference (TR)" info="(8 bits)">52</data>
+        <block offset="61036" name="Type Information (PTYPE)" size="566516">
+          <data offset="61035" name="1">No</data>
+          <data offset="627552" name="Mark bit is wrong">0</data>
+        </block>
+      </block>
+      <block offset="627552" name="Frame" size="59064">
+        <data offset="627554" name="Picture Start Code (PSC)" info="(22 bits)">32</data>
+        <data offset="627554" name="Temporal Reference (TR)" info="(8 bits)">160</data>
+        <data offset="686616" name="Out of Order">0</data>
+      </block>
+    </MediaTrace>
+  </media>
+</MediaArea>

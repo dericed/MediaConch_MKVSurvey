@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaArea xmlns="https://mediaarea.net/mediaarea" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://mediaarea.net/mediaarea https://mediaarea.net/mediaarea/mediaarea_0_1.xsd" version="0.1">
+  <!-- Work in progress, not for production -->
+  <creatingLibrary version="0.7.78" url="https://mediaarea.net/MediaInfo">MediaInfoLib</creatingLibrary>
+  <media ref="http://archive.org/download/50CeABaltLoThiMp3Persia/50 Ce - Ge In M Ca - Mp3Persia.mkv">
+    <MediaInfo xmlns="https://mediaarea.net/mediainfo" version="2.0alpha1">
+      <track type="General">
+        <CompleteName>http://archive.org/download/50CeABaltLoThiMp3Persia/50 Ce - Ge In M Ca - Mp3Persia.mkv</CompleteName>
+        <Format>AVI</Format>
+        <FileSize>49222803</FileSize>
+        <Duration>272400</Duration>
+        <OverallBitRate>1445604</OverallBitRate>
+        <FrameRate>25.000</FrameRate>
+        <FrameCount>6810</FrameCount>
+        <StreamSize>2252453</StreamSize>
+      </track>
+      <track type="Video">
+        <StreamOrder>0</StreamOrder>
+        <ID>0</ID>
+        <Format>MPEG-4 Visual</Format>
+        <Format_Profile>Advanced Simple@L5</Format_Profile>
+        <Format_Settings_BVOP>No</Format_Settings_BVOP>
+        <Format_Settings_QPel>No</Format_Settings_QPel>
+        <Format_Settings_GMC>0</Format_Settings_GMC>
+        <Format_Settings_Matrix>Default (MPEG)</Format_Settings_Matrix>
+        <CodecID>XVID</CodecID>
+        <Duration>272400</Duration>
+        <BitRate>1187498</BitRate>
+        <Width>1280</Width>
+        <Height>720</Height>
+        <Sampled_Width>1280</Sampled_Width>
+        <Sampled_Height>720</Sampled_Height>
+        <PixelAspectRatio>1.000</PixelAspectRatio>
+        <DisplayAspectRatio>1.778</DisplayAspectRatio>
+        <FrameRate>25.000</FrameRate>
+        <FrameCount>6810</FrameCount>
+        <ColorSpace>YUV</ColorSpace>
+        <ChromaSubsampling>4:2:0</ChromaSubsampling>
+        <BitDepth>8</BitDepth>
+        <ScanType>Progressive</ScanType>
+        <Compression_Mode>Lossy</Compression_Mode>
+        <Delay>0</Delay>
+        <StreamSize>40434310</StreamSize>
+        <Encoded_Library>XviD0050</Encoded_Library>
+        <Encoded_Library_Name>XviD</Encoded_Library_Name>
+        <Encoded_Library_Version>1.2.1</Encoded_Library_Version>
+        <Encoded_Library_Date>UTC 2008-12-04</Encoded_Library_Date>
+      </track>
+      <track type="Audio">
+        <StreamOrder>1</StreamOrder>
+        <ID>1</ID>
+        <Format>MPEG Audio</Format>
+        <Format_Version>Version 1</Format_Version>
+        <Format_Profile>Layer 3</Format_Profile>
+        <CodecID>55</CodecID>
+        <Duration>272335</Duration>
+        <BitRate_Mode>CBR</BitRate_Mode>
+        <BitRate>192000</BitRate>
+        <Channels>2</Channels>
+        <SamplingRate>44100</SamplingRate>
+        <SamplingCount>12009974</SamplingCount>
+        <Compression_Mode>Lossy</Compression_Mode>
+        <Delay>0</Delay>
+        <Delay_Source>Stream</Delay_Source>
+        <StreamSize>6536040</StreamSize>
+        <StreamSize_Proportion>0.13278</StreamSize_Proportion>
+        <Alignment>Split</Alignment>
+        <Encoded_Library>LAMELAME_MAJOR_VERSI</Encoded_Library>
+      </track>
+    </MediaInfo>
+    <MediaTrace xmlns="https://mediaarea.net/mediatrace" version="0.1">
+      <block offset="0" name="AVI" size="49222803">
+        <block offset="0" name="Header" size="12">
+          <data offset="0" name="Name">RIFF</data>
+          <data offset="4" name="Size">59565778</data>
+          <data offset="8" name="Real Name">AVI </data>
+        </block>
+        <block offset="12" name="AVI Header" size="8838">
+          <block offset="12" name="Header" size="12">
+            <data offset="12" name="Name">LIST</data>
+            <data offset="16" name="Size">8830</data>
+            <data offset="20" name="Real Name">hdrl</data>
+          </block>
+          <block offset="24" name="File header" size="64">
+            <block offset="24" name="Header" size="8">
+              <data offset="24" name="Name">avih</data>
+              <data offset="28" name="Size">56</data>
+            </block>
+            <data offset="32" name="MicrosecPerFrame">40000</data>
+            <data offset="36" name="MaxBytesPerSec">0</data>
+            <data offset="40" name="PaddingGranularity">0</data>
+            <data offset="44" name="Flags">272</data>
+            <data offset="48" name="TotalFrames">6810</data>
+            <data offset="52" name="InitialFrames">0</data>
+            <data offset="56" name="StreamsCount">2</data>
+            <data offset="60" name="SuggestedBufferSize">0</data>
+            <data offset="64" name="Width">1280</data>
+            <data offset="68" name="Height">720</data>
+            <data offset="72" name="Reserved">0</data>
+            <data offset="76" name="Reserved">0</data>
+            <data offset="80" name="Reserved">0</data>
+            <data offset="84" name="Reserved">0</data>
+          </block>
+          <block offset="88" name="Stream info" size="4252">
+            <block offset="88" name="Header" size="12">
+              <data offset="88" name="Name">LIST</data>
+              <data offset="92" name="Size">4244</data>
+              <data offset="96" name="Real Name">strl</data>
+            </block>
+            <block offset="100" name="Stream header" size="64">
+              <block offset="100" name="Header" size="8">
+                <data offset="100" name="Name">strh</data>
+                <data offset="104" name="Size">56</data>
+              </block>
+              <data offset="108" name="fccType">vids</data>
+              <data offset="112" name="fccHandler">XVID</data>
+              <data offset="116" name="Flags">0</data>
+              <data offset="120" name="Priority">0</data>
+              <data offset="122" name="Language">0</data>
+              <data offset="124" name="InitialFrames">0</data>
+              <data offset="128" name="Scale">1000</data>
+              <data offset="132" name="Rate">25000</data>
+              <data offset="136" name="Start">0</data>
+              <data offset="140" name="Length">6810</data>
+              <data offset="144" name="SuggestedBufferSize">163578</data>
+              <data offset="148" name="Quality">4294967295</data>
+              <data offset="152" name="SampleSize">0</data>
+              <data offset="156" name="Frame_Left">0</data>
+              <data offset="158" name="Frame_Top">0</data>
+              <data offset="160" name="Frame_Right">1280</data>
+              <data offset="162" name="Frame_Bottom">720</data>
+            </block>
+            <block offset="164" name="Stream format" size="48">
+              <block offset="164" name="Header" size="8">
+                <data offset="164" name="Name">strf</data>
+                <data offset="168" name="Size">40</data>
+              </block>
+              <data offset="172" name="Size">40</data>
+              <data offset="176" name="Width">1280</data>
+              <data offset="180" name="Height">720</data>
+              <data offset="184" name="Planes">1</data>
+              <data offset="186" name="BitCount">24</data>
+              <data offset="188" name="Compression">XVID</data>
+              <data offset="192" name="SizeImage">2764800</data>
+              <data offset="196" name="XPelsPerMeter">0</data>
+              <data offset="200" name="YPelsPerMeter">0</data>
+              <data offset="204" name="ClrUsed">0</data>
+              <data offset="208" name="ClrImportant">0</data>
+            </block>
+            <block offset="212" name="Garbage" size="4128">
+              <block offset="212" name="Header" size="8">
+                <data offset="212" name="Name">JUNK</data>
+                <data offset="216" name="Size">4120</data>
+              </block>
+            </block>
+          </block>
+          <block offset="4340" name="Stream info" size="4242">
+            <block offset="4340" name="Header" size="12">
+              <data offset="4340" name="Name">LIST</data>
+              <data offset="4344" name="Size">4234</data>
+              <data offset="4348" name="Real Name">strl</data>
+            </block>
+            <block offset="4352" name="Stream header" size="64">
+              <block offset="4352" name="Header" size="8">
+                <data offset="4352" name="Name">strh</data>
+                <data offset="4356" name="Size">56</data>
+              </block>
+              <data offset="4360" name="fccType">auds</data>
+              <data offset="4364" name="fccHandler">0</data>
+              <data offset="4368" name="Flags">0</data>
+              <data offset="4372" name="Priority">0</data>
+              <data offset="4374" name="Language">0</data>
+              <data offset="4376" name="InitialFrames">0</data>
+              <data offset="4380" name="Scale">1</data>
+              <data offset="4384" name="Rate">24000</data>
+              <data offset="4388" name="Start">0</data>
+              <data offset="4392" name="Length">6536046</data>
+              <data offset="4396" name="SuggestedBufferSize">2947</data>
+              <data offset="4400" name="Quality">0</data>
+              <data offset="4404" name="SampleSize">1</data>
+              <data offset="4408" name="Frame_Left">0</data>
+              <data offset="4410" name="Frame_Top">0</data>
+              <data offset="4412" name="Frame_Right">0</data>
+              <data offset="4414" name="Frame_Bottom">0</data>
+            </block>
+            <block offset="4416" name="Stream format" size="38">
+              <block offset="4416" name="Header" size="8">
+                <data offset="4416" name="Name">strf</data>
+                <data offset="4420" name="Size">30</data>
+              </block>
+              <data offset="4424" name="FormatTag">85</data>
+              <data offset="4426" name="Channels">2</data>
+              <data offset="4428" name="SamplesPerSec">44100</data>
+              <data offset="4432" name="AvgBytesPerSec">24000</data>
+              <data offset="4436" name="BlockAlign">1</data>
+              <data offset="4438" name="BitsPerSample">0</data>
+              <data offset="4440" name="cbSize">12</data>
+              <block offset="4442" name="MPEG Audio options" size="12">
+                <data offset="4442" name="ID">1</data>
+                <data offset="4444" name="Flags">34</data>
+                <data offset="4448" name="BlockSize">626</data>
+                <data offset="4450" name="FramesPerBlock">1</data>
+                <data offset="4452" name="CodecDelay">0</data>
+              </block>
+            </block>
+            <block offset="4454" name="Garbage" size="4128">
+              <block offset="4454" name="Header" size="8">
+                <data offset="4454" name="Name">JUNK</data>
+                <data offset="4458" name="Size">4120</data>
+              </block>
+            </block>
+          </block>
+          <block offset="8582" name="OpenDML" size="268">
+            <block offset="8582" name="Header" size="12">
+              <data offset="8582" name="Name">LIST</data>
+              <data offset="8586" name="Size">260</data>
+              <data offset="8590" name="Real Name">odml</data>
+            </block>
+            <block offset="8594" name="OpenDML Header" size="256">
+              <block offset="8594" name="Header" size="8">
+                <data offset="8594" name="Name">dmlh</data>
+                <data offset="8598" name="Size">248</data>
+              </block>
+              <data offset="8602" name="GrandFrames">6810</data>
+              <data offset="8606" name="Unknown">(244 bytes)</data>
+            </block>
+          </block>
+        </block>
+        <block offset="8850" name="Garbage" size="1390">
+          <block offset="8850" name="Header" size="8">
+            <data offset="8850" name="Name">JUNK</data>
+            <data offset="8854" name="Size">1382</data>
+          </block>
+          <data offset="8858" name="Data">(1382 bytes)</data>
+        </block>
+        <block offset="10240" name="Datas" size="49212563">
+          <block offset="10240" name="Header" size="12">
+            <data offset="10240" name="Name">LIST</data>
+            <data offset="10244" name="Size">59392090</data>
+            <data offset="10248" name="Real Name">movi</data>
+          </block>
+          <data offset="10252" name="Data">(49212551 bytes)</data>
+        </block>
+      </block>
+    </MediaTrace>
+  </media>
+</MediaArea>
