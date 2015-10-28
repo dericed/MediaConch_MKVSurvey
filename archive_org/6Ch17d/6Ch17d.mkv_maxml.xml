@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaArea xmlns="https://mediaarea.net/mediaarea" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://mediaarea.net/mediaarea https://mediaarea.net/mediaarea/mediaarea_0_1.xsd" version="0.1">
+  <!-- Work in progress, not for production -->
+  <creatingLibrary version="0.7.78" url="https://mediaarea.net/MediaInfo">MediaInfoLib</creatingLibrary>
+  <media ref="http://archive.org/download/6Ch17d/6Ch17d.mkv">
+    <MediaInfo xmlns="https://mediaarea.net/mediainfo" version="2.0alpha1">
+      <track type="General">
+        <CompleteName>http://archive.org/download/6Ch17d/6Ch17d.mkv</CompleteName>
+        <Format>RAR</Format>
+        <FileSize>366381124</FileSize>
+        <StreamSize>366381124</StreamSize>
+      </track>
+    </MediaInfo>
+    <MediaTrace xmlns="https://mediaarea.net/mediatrace" version="0.1">
+      <block offset="0" name="marker block" size="7">
+        <block offset="0" name="Header" size="7">
+          <data offset="0" name="HEAD_CRC">24914</data>
+          <data offset="2" name="HEAD_TYPE">114</data>
+          <data offset="3" name="HEAD_FLAGS">6689</data>
+          <data offset="5" name="HEAD_SIZE">7</data>
+        </block>
+      </block>
+      <block offset="7" name="archive header" size="13">
+        <block offset="7" name="Header" size="13">
+          <data offset="7" name="HEAD_CRC">37071</data>
+          <data offset="9" name="HEAD_TYPE">115</data>
+          <data offset="10" name="HEAD_FLAGS">0</data>
+          <data offset="12" name="HEAD_SIZE">13</data>
+          <data offset="14" name="RESERVED_1">0</data>
+          <data offset="16" name="RESERVED_2">0</data>
+        </block>
+      </block>
+      <block offset="20" name="file header" size="1428">
+        <block offset="20" name="Header" size="47">
+          <data offset="20" name="HEAD_CRC">32258</data>
+          <data offset="22" name="HEAD_TYPE">116</data>
+          <data offset="23" name="HEAD_FLAGS">36896</data>
+          <data offset="25" name="HEAD_SIZE">47</data>
+          <data offset="27" name="PACK_SIZE">366381050</data>
+          <data offset="31" name="UNP_SIZE">366381050</data>
+          <data offset="35" name="HOST_OS" info="Win32">2</data>
+          <data offset="36" name="FILE_CRC">3562837279</data>
+          <data offset="40" name="FTIME">1194410320</data>
+          <data offset="44" name="UNP_VER" info="2.0">20</data>
+          <data offset="45" name="METHOD" info="storing">48</data>
+          <data offset="46" name="NAME_SIZE">10</data>
+          <data offset="48" name="ATTR">32</data>
+          <data offset="52" name="FILE_NAME">6Ch17d.mkv</data>
+          <data offset="62" name="REST OF HEADER">(5 bytes)</data>
+        </block>
+        <data offset="67" name="Data">(1381 bytes)</data>
+      </block>
+      <block offset="366381117" name="end of file" size="7">
+        <block offset="366381117" name="Header" size="7">
+          <data offset="366381117" name="HEAD_CRC">15812</data>
+          <data offset="366381119" name="HEAD_TYPE">123</data>
+          <data offset="366381120" name="HEAD_FLAGS">16384</data>
+          <data offset="366381122" name="HEAD_SIZE">7</data>
+        </block>
+      </block>
+    </MediaTrace>
+  </media>
+</MediaArea>
